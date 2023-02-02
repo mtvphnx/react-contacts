@@ -1,0 +1,75 @@
+.list-group-item {
+  padding: 15px 20px;
+  border-bottom: 1px solid #3d5a80;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+.list-group-item span {
+  line-height: 35px;
+  font-size: 20px;
+  flex: 1;
+  cursor: default;
+  user-select: none;
+}
+
+.list-group-item .value {
+  line-height: 35px;
+  font-size: 20px;
+  text-align: center;
+  border: 0;
+  cursor: default;
+  user-select: none;
+}
+
+.list-group-item button {
+  width: 35px;
+  height: 35px;
+  margin: 3px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.list-group-item .btn-cookie {
+  color: #f2bc1d;
+}
+
+.list-group-item .btn-trash {
+  color: #e5383b;
+}
+
+.list-group-item .fa-star {
+  color: #f2bc1d;
+}
+
+.list-group-item .fa-pen {
+  color: #1bcd1b;
+}
+
+.list-group-item.like .fa-star {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.list-group-item.star .list-group-item-label, .list-group-item.star .list-group-item-input {
+  color: #f2bc1d;
+}
+
+.list-group-item.star .btn-star {
+  color: #aeaeae;
+}
+
+.btn-test {
+  margin-left: 10px;
+  background-color: gainsboro;
+
+  cursor: pointer;
+  display: block;
+}
+
+.list-group-item-input {
+  min-width: 150px;
+}
