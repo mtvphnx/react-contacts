@@ -2,7 +2,7 @@ import './Filter.scss';
 
 export const Filter = ({role, country, toggleState}) => {
     const roleList = [
-        {key: 0, name: 'all', text: 'Все сотрудники'},
+        {key: 0, name: 'all', text: 'Все роли'},
         {key: 1, name: 'contact', text: 'Контакт'},
         {key: 2, name: 'speaker', text: 'Спикер'},
         {key: 3, name: 'agent', text: 'Контрагент'}
